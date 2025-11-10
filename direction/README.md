@@ -1,0 +1,5 @@
+- Ensemble models over different backbones.
+- Main backbone model: Dino V2 from Facebook Research, Swin model, Convnext_tiny etc.
+- CSVs were generated from each model and then ensembled.
+- The ensemble was done using the average of the predictions from each model.
+- Data augmentation and other some techniques are used to improve the performance of the model.
